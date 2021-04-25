@@ -1,0 +1,9 @@
+torch==1.7.1+cu101
+torchaudio==0.7.2
+torchcontrib==0.0.2
+torchtext==0.8.0
+torchvision==0.8.2+cu101
+tornado==6.0.3
+tqdm==4.42.1
+transformers==4.5.0.dev0
+tokenizers==0.10.1
