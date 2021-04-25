@@ -1,4 +1,4 @@
 torch==1.7.1
 tqdm==4.42.1
-transformers==4.5.0.dev0
+transformers==4.5.0
 tokenizers==0.10.1
