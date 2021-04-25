@@ -15,8 +15,11 @@ def train_tok():
     ]
     tokenizer.train([p], min_frequency=2, special_tokens=special_tokens)
     tokenizer.add_special_tokens(special_tokens)
-    sample = info_pd.description[0]
-    strs = " ".join([str(x) for x in sample])
+    with open(p,"r",encoding="utf-8") as f:
+        sample = f.readline()
+        break
+    #sample = info_pd.description[0]
+    strs = sample#" ".join([str(x) for x in sample])
     print(strs)
     encoded = tokenizer.encode(strs)
     print("print(encoded.ids)", encoded.ids)
