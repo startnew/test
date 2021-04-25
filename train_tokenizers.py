@@ -17,7 +17,7 @@ def train_tok():
     tokenizer.add_special_tokens(special_tokens)
     with open(p,"r",encoding="utf-8") as f:
         sample = f.readline()
-        break
+        #break
     #sample = info_pd.description[0]
     strs = sample#" ".join([str(x) for x in sample])
     print(strs)
